@@ -735,7 +735,7 @@ jobs:
           if [ -d "$CONFIG/Wild_KSU" ]; then
             cd "$CONFIG/Wild_KSU"
             WKSU_COMMIT=$(git rev-parse HEAD)
-            WKSU_URL="https://github.com/WildKernels/Wild_KSU/commit/$WKSU_COMMIT"
+            WKSU_URL="https://github.com/CaptainBoggle/Wild_KSU/commit/$WKSU_COMMIT"
             echo "- **Wild_KSU**: [$WKSU_COMMIT]($WKSU_URL)" >> "$GITHUB_WORKSPACE/build_summary.md"
             cd "$GITHUB_WORKSPACE"
           else
