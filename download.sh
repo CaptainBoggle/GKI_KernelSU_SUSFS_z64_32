@@ -82,30 +82,6 @@ download_one() {
   echo "Saved to: $final_dir"
 }
 
-# All kernel combinations from test build workflow
-# Android 12 - 5.10
-download_one "android12" "5.10" "2021-08"  # oldest (sub_level: 43)
-download_one "android12" "5.10" "lts"      # LTS
-
-# Android 13 - 5.10
-download_one "android13" "5.10" "2022-04"  # oldest (sub_level: 107)
-download_one "android13" "5.10" "lts"      # LTS
-
-# Android 13 - 5.15
-download_one "android13" "5.15" "2022-06"  # oldest (sub_level: 41)
-download_one "android13" "5.15" "lts"      # LTS
-
-# Android 14 - 5.15
-download_one "android14" "5.15" "2023-06"  # oldest (sub_level: 110)
-download_one "android14" "5.15" "lts"      # LTS
-
-# Android 14 - 6.1
-download_one "android14" "6.1" "2023-06"   # oldest (sub_level: 25)
-download_one "android14" "6.1" "lts"       # LTS
 download_one "android14" "6.1" "2025-05"   # specific (sub_level: 134)
-
-# Android 15 - 6.6
-download_one "android15" "6.6" "2024-07"   # oldest (sub_level: 30)
-download_one "android15" "6.6" "lts"       # LTS
 
 echo "\nAll kernel sources downloaded to: $TARGET_ROOT"
