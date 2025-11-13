@@ -173,7 +173,7 @@ jobs:
       - name: Add KernelSU
         run: |
           cd "$CONFIG"
-          curl -LSs "https://raw.githubusercontent.com/WildKernels/Wild_KSU/wild/kernel/setup.sh" | bash -s wild
+          curl -LSs "https://raw.githubusercontent.com/CaptainBoggle/Wild_KSU/wild/kernel/setup.sh" | bash -s wild
 
       - name: Getting KernelSU Version
         run: |
