@@ -15,6 +15,8 @@ jobs:
       fail-fast: false
       matrix:
         include:
+          - sub_level: "124"
+            os_patch_level: "2025-02"
           - sub_level: "134"
             os_patch_level: "2025-05"
           - sub_level: "X"
