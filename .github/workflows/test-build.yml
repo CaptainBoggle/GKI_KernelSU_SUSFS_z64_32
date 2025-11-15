@@ -15,11 +15,11 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          # Android 14 - 6.1 oldest (OLD)
-          - android_version: "android14"
-            kernel_version: "6.1"
-            sub_level: "25"
-            os_patch_level: "2023-06"
+          # # Android 14 - 6.1 oldest (OLD)
+          # - android_version: "android14"
+          #   kernel_version: "6.1"
+          #   sub_level: "25"
+          #   os_patch_level: "2023-06"
           
           # Android 14 - 6.1 LTS (NEW)
           - android_version: "android14"
