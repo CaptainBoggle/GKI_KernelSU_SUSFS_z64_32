@@ -1,9 +1,17 @@
 <div align="center">
 
-# 🔥 Wild Kernels for Android
+# 🔥 Wild Kernels Zygote64_32 for Pixel 7/7P
 
 [![KernelSU](https://img.shields.io/badge/KernelSU-Supported-green)](https://kernelsu.org/)
 [![SUSFS](https://img.shields.io/badge/SUSFS-Integrated-orange)](https://gitlab.com/simonpunk/susfs4ksu)
+
+### IMPORTANT: This is a fork of the GKI Wild Kernels repo with the goal of enabling 32-bit apps to run on devices that have the capability but have it disabled by default in the ROM, such as the Pixel 7/7 Pro. This is essentially untested and may cause bootloops. 
+
+Credit to @TheWildJames for the original Wild Kernels GKI project and awesome build pipeline! 
+
+See the repo for the Wild KSU fork in this kernel: [CaptainBoggle/Wild_KSU](https://github.com/CaptainBoggle/Wild_KSU)
+
+The original README follows below.
 
 </div>
 
