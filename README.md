@@ -7,6 +7,8 @@
 
 ### IMPORTANT: This is a fork of the GKI Wild Kernels repo with the goal of enabling 32-bit apps to run on devices that have the capability but have it disabled by default in the ROM, such as the Pixel 7/7 Pro. This is essentially untested and may cause bootloops. 
 
+</div>
+<div align="left">
 
 ## Installation Instructions
 
@@ -25,7 +27,11 @@ This is the process I followed to install this kernel on my Pixel 7 running `pan
 12. 32-bit apps should now work.
 13. Uninstall KSU-next manager, and install the latest Wild KSU manager from my fork: [CaptainBoggle/Wild_KSU](https://github.com/CaptainBoggle/Wild_KSU) (although the standard Wild KSU manager may also work).
 
+</div>
+<div align="center">
+
 ---
+
 
 
 Credit to @TheWildJames for the original Wild Kernels GKI project and awesome build pipeline! 
