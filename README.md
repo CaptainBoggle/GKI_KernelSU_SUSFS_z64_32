@@ -7,6 +7,27 @@
 
 ### IMPORTANT: This is a fork of the GKI Wild Kernels repo with the goal of enabling 32-bit apps to run on devices that have the capability but have it disabled by default in the ROM, such as the Pixel 7/7 Pro. This is essentially untested and may cause bootloops. 
 
+
+## Installation Instructions
+
+This is the process I followed to install this kernel on my Pixel 7 running `panther-bp3a.251005.004.b2`. There are probably easier ways but this worked for me. I am not sure if a wipe is necessary given that I did boot once without the patch installed as you will see in the steps below. I did wipe at the start of this process though.
+
+1. Unlock bootloader
+2. Download the factory image
+3. Extract the factory image and use `./flash-all.sh` to flash the stock ROM. The phone was wiped and booted as stock at this point.
+4. Enable developer and ADB on the phone.
+5. Open PixelFlasher, process the factory image zip, and patch the boot image with KSU-next (non-LKM).
+6. Use PixelFlasher to install [KernelFlasher](https://github.com/fatalcoder524/KernelFlasher).
+7. Live boot with the patched image in PixelFlasher. 
+8. Use PixelFlasher to install the KSU-next manager app.
+9. Provide root to KernelFlasher via KSU-next manager.
+10. Flash the appropriate AnyKernel3 zip for your kernel version via KernelFlasher. 11. Reboot.
+12. 32-bit apps should now work.
+13. Uninstall KSU-next manager, and install the latest Wild KSU manager from my fork: [CaptainBoggle/Wild_KSU](https://github.com/CaptainBoggle/Wild_KSU) (although the standard Wild KSU manager may also work).
+
+---
+
+
 Credit to @TheWildJames for the original Wild Kernels GKI project and awesome build pipeline! 
 
 See the repo for the Wild KSU fork in this kernel: [CaptainBoggle/Wild_KSU](https://github.com/CaptainBoggle/Wild_KSU)
