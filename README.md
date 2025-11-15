@@ -25,7 +25,7 @@ This is the process I followed to install this kernel on my Pixel 7 running `pan
 9. Provide root to KernelFlasher via KSU-next manager.
 10. Flash the appropriate AnyKernel3 zip for your kernel version via KernelFlasher. 11. Reboot.
 12. 32-bit apps should now work.
-13. Uninstall KSU-next manager, and install the latest Wild KSU manager from my fork: [CaptainBoggle/Wild_KSU](https://github.com/CaptainBoggle/Wild_KSU) (although the standard Wild KSU manager may also work).
+13. Uninstall KSU-next manager, and install the latest Wild KSU manager ~~from my fork: [CaptainBoggle/Wild_KSU](https://github.com/CaptainBoggle/Wild_KSU)~~ (for some reason my fork doesn't work, just use the standard manager app for now.)
 
 </div>
 <div align="center">
